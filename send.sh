@@ -101,8 +101,13 @@ else
 				"inline": true
 			},
 			{
-				"name": "Artifacts",
+				"name": "Download builds",
 				"value": "'"[\`$CI_JOB_ID\`]($ARTIFACT_URL)"'",
+				"inline": true
+			},
+			{
+				"name": "WebGL Preview",
+				"value": "http://coronary.wuel.de/",
 				"inline": true
 			}
 			],
